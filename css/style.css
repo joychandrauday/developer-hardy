@@ -139,8 +139,8 @@ nav {
     display: flex;
 }
 .banner_img_main img {
-    width: 115%;
-    margin-top: 50px;
+    width: 100% !important;
+    margin-top: 50px !important;
 }
 /* header css */
 /* about_section css */
