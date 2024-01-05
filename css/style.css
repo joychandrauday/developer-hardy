@@ -171,3 +171,25 @@ font-weight: 700;
 font-size: 18px;
 }
 /* about_section css */
+/* what_i_do_section styles */
+.what_i_do_section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.what_i_do_section_wrapper{
+    padding: 200px 150px;
+}
+.skills_container{
+    display: flex;
+}
+.skill{
+
+}
+.skill_title{
+
+}
+.skill_desc{
+
+}
+/* what_i_do_section styles */
