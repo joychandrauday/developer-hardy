@@ -178,18 +178,123 @@ font-size: 18px;
     align-items: center;
 }
 .what_i_do_section_wrapper{
-    padding: 200px 150px;
+    padding: 0px 95px;
 }
 .skills_container{
     display: flex;
 }
 .skill{
 
+padding: 15px;
 }
 .skill_title{
 
+text-transform: capitalize;
+
+line-height: 60px;
 }
 .skill_desc{
 
 }
 /* what_i_do_section styles */
+/* resume section style */
+.resume_section{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+.resume_section_wrapper{
+}
+.resume_container{
+    display: flex;
+    gap: 50px;
+    margin: 90px 0 40px;
+}
+.resume_title{
+
+font-size: 25px;
+
+font-weight: 700;
+
+color: #474747;
+
+margin: 15px 0;
+}
+.resume_column hr{
+    
+margin: 30px 0;
+}
+.resume_item{width: 70%;}
+.resume_item_title{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #474747;
+}
+.resume_item_inst{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    color: #757575;
+    margin: 5px 0 15px;
+}
+.resume_item_desc{
+    color: #757575;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.download_cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* resume section style */
+
+/* footer section style  */
+footer{
+    height: 100vh;
+    
+    background-color: #FFF8F3;
+}
+.footer_wrapper{
+    padding: 50px 0;
+    display: flex;
+}
+.footer_column{
+    flex-basis: 50%;
+}
+.footer_text{
+    text-align: left;
+}
+.social-links{}
+.social-links a{
+}
+.social-links a:hover{}
+.social-links img{
+    width: 30px;
+    margin-right: 25px;
+}
+.footer_column form{
+    padding: 30px 20px 20px;
+}
+.footer_column form input[type="text"], input[type="email"],input[type="email"],.textarea{
+    padding: 16px 25px;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: white;
+    border: 0;
+    width: 100%;
+    text-transform: capitalize;
+}
+.textarea{
+
+}
+.footer_column form input[type="submit"]{
+    display: block;
+    margin-top: 10px;
+}
+/* footer section style  */
