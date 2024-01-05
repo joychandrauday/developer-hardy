@@ -7,6 +7,11 @@
     padding: 0;
     margin: 0;
 }
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding-top:30px ;
+}
 .text_primary {
     color: #fd6e0a;
 }
@@ -27,6 +32,12 @@
 /* common shared style */
 
 /* header css */
+.header{
+    background: #FFF8F3;
+    background-color: #FFF8F3;
+    height: 100vh;
+}
+
 nav {
     display: flex;
 
@@ -68,5 +79,30 @@ nav {
     text-transform: capitalize;
 }
 .nav_menu li a:hover {
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner_elements{
+
+}
+.banner_elements h3{
+
+}
+.banner_elements h1{
+
+}
+.banner_elements p{
+
+}
+.banner_elements button{
+
+}
+.banner_image{
+    
+}
+.banner_image img{
+    width: 100%;
 }
 /* header css */
